@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: white;
+  overflow: auto;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  
+}
+li:hover::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: hsl(223, 100%, 58%);
+  right: 0;
+  bottom: -10px;
+  color: #2af8ff;
+}
+.icon {
+  cursor: pointer;
+}
+.card {
+  background-color: #000;
 }
