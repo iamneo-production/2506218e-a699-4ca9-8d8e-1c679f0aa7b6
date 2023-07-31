@@ -1,0 +1,49 @@
+.form-container1{
+    display: flex;
+    height: 600px;
+    width: 1100px;
+    margin:auto;
+    margin-top:25px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-desk-with-keyboard-notebook_23-2148557291.jpg?w=2000");
+   
+}
+h1{
+font-size: 30px;
+}
+.label{
+font-size: 20px;
+margin-left: 540px;
+font-weight: bold;
+}
+input[type=text]{
+margin-left:425px;
+
+}
+input[type=tel]{
+margin-left:425px;
+
+}
+input[type=number]{
+margin-left:425px;
+
+}
+.btn-submit{
+padding: 12px 20PX;
+width:10%;
+margin-top: 30px;
+background-color: black;
+ color: white;
+ font-weight: bold;
+ font-display: center;
+ border:none;
+ outline: none;
+border-radius: 15px;
+margin-left: 530px;
+
+}
+.btn-submit:hover{
+cursor: pointer;
+background-color: #750000;
+}
