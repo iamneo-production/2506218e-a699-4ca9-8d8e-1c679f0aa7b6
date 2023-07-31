@@ -52,6 +52,4 @@ function App() {
   );
 }
 
-
->>>>>>> c83ba89da30825f043886757140f837585d6297c
 export default App;
